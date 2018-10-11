@@ -1,0 +1,16 @@
+PODS:
+  - JWNetAutoCache (0.0.2)
+
+DEPENDENCIES:
+  - JWNetAutoCache
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JWNetAutoCache
+
+SPEC CHECKSUMS:
+  JWNetAutoCache: 434f10855da06d29a381359552ae9d27ef35cad7
+
+PODFILE CHECKSUM: 1911fdc0ddd996d7d8e6454dcbb97af7c7a5cb06
+
+COCOAPODS: 1.5.3

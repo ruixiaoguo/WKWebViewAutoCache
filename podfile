@@ -1,0 +1,7 @@
+platform :ios, '10.0'
+target “WKWebViewAutoCache” do
+
+pod 'JWNetAutoCache'
+
+# use_framework !
+end

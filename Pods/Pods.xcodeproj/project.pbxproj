@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D23D22B7F7CAECDA90B76CB39D307E8 /* Pods-WKWebViewAutoCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 866E879018AC21D599B9E1B04606CAD5 /* Pods-WKWebViewAutoCache-dummy.m */; };
+		96C493E84AE876795848A9E1FDF90CD2 /* JWNetAutoCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E366F36AE66804A5B3173A3B2E4112 /* JWNetAutoCache-dummy.m */; };
+		A5322567BECDD628B14138EDCE5E40EF /* JWCacheURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDD6A36748C58CCE52F7261704A417 /* JWCacheURLProtocol.m */; };
+		E74FC440C15B7D7884C9C779416553AB /* JWCacheURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F012B96F516822FB8EC681C8316660 /* JWCacheURLProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7737B7D7A8E87FE4C3B4B440FD5B29C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E445043F4A047DFCC20255E185937DF;
+			remoteInfo = JWNetAutoCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13AA073F690A919C5EC8FACDAAF3A535 /* Pods-WKWebViewAutoCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKWebViewAutoCache.debug.xcconfig"; sourceTree = "<group>"; };
+		25DDD6A36748C58CCE52F7261704A417 /* JWCacheURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWCacheURLProtocol.m; path = JWNetAutoCache/JWCacheURLProtocol.m; sourceTree = "<group>"; };
+		3D6B532BFDAB0E10CF1632F28CA78DAA /* libPods-WKWebViewAutoCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WKWebViewAutoCache.a"; path = "libPods-WKWebViewAutoCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		444C2131E41088BF104BD005D8E6C517 /* libJWNetAutoCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJWNetAutoCache.a; path = libJWNetAutoCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		539BA3B8EEF781AAA95616D0B7DED33A /* Pods-WKWebViewAutoCache-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKWebViewAutoCache-acknowledgements.plist"; sourceTree = "<group>"; };
+		53E366F36AE66804A5B3173A3B2E4112 /* JWNetAutoCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWNetAutoCache-dummy.m"; sourceTree = "<group>"; };
+		7214811395FE4D09EA6430AC622F6BD3 /* JWNetAutoCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWNetAutoCache.xcconfig; sourceTree = "<group>"; };
+		79F150644EFF9C03FA2F334BC796CEDE /* Pods-WKWebViewAutoCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKWebViewAutoCache.release.xcconfig"; sourceTree = "<group>"; };
+		866E879018AC21D599B9E1B04606CAD5 /* Pods-WKWebViewAutoCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKWebViewAutoCache-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B4A47A9E15BFC99A3F2D3AF843ABD72 /* JWNetAutoCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWNetAutoCache-prefix.pch"; sourceTree = "<group>"; };
+		C2F012B96F516822FB8EC681C8316660 /* JWCacheURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWCacheURLProtocol.h; path = JWNetAutoCache/JWCacheURLProtocol.h; sourceTree = "<group>"; };
+		CAE465FCD5408970FFDD63E529138490 /* Pods-WKWebViewAutoCache-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKWebViewAutoCache-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D38833E5EA6AE4A60CA54F04B73A5BBE /* Pods-WKWebViewAutoCache-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKWebViewAutoCache-resources.sh"; sourceTree = "<group>"; };
+		D6EC4C80E2FB215468A60AF1276931AB /* Pods-WKWebViewAutoCache-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKWebViewAutoCache-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09744820B32E71C0513B5506A59390AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EDE2B600C31331C362B0D7C1BF6182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E3B4D1B393D76F36DBE3BD48E3F628A /* JWNetAutoCache */ = {
+			isa = PBXGroup;
+			children = (
+				C2F012B96F516822FB8EC681C8316660 /* JWCacheURLProtocol.h */,
+				25DDD6A36748C58CCE52F7261704A417 /* JWCacheURLProtocol.m */,
+				CA71A4203645B3A4C64B4B5898713825 /* Support Files */,
+			);
+			name = JWNetAutoCache;
+			path = JWNetAutoCache;
+			sourceTree = "<group>";
+		};
+		736ACD90349B1CE58F447437537E65AA /* Pods-WKWebViewAutoCache */ = {
+			isa = PBXGroup;
+			children = (
+				CAE465FCD5408970FFDD63E529138490 /* Pods-WKWebViewAutoCache-acknowledgements.markdown */,
+				539BA3B8EEF781AAA95616D0B7DED33A /* Pods-WKWebViewAutoCache-acknowledgements.plist */,
+				866E879018AC21D599B9E1B04606CAD5 /* Pods-WKWebViewAutoCache-dummy.m */,
+				D6EC4C80E2FB215468A60AF1276931AB /* Pods-WKWebViewAutoCache-frameworks.sh */,
+				D38833E5EA6AE4A60CA54F04B73A5BBE /* Pods-WKWebViewAutoCache-resources.sh */,
+				13AA073F690A919C5EC8FACDAAF3A535 /* Pods-WKWebViewAutoCache.debug.xcconfig */,
+				79F150644EFF9C03FA2F334BC796CEDE /* Pods-WKWebViewAutoCache.release.xcconfig */,
+			);
+			name = "Pods-WKWebViewAutoCache";
+			path = "Target Support Files/Pods-WKWebViewAutoCache";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				CC307AF06BF1A9BE918D4EAC9125CC80 /* Pods */,
+				A5E585A6E86811B4BAFA20A98BC22B88 /* Products */,
+				D935011278801F9337D80124A7ADD57D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A5E585A6E86811B4BAFA20A98BC22B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				444C2131E41088BF104BD005D8E6C517 /* libJWNetAutoCache.a */,
+				3D6B532BFDAB0E10CF1632F28CA78DAA /* libPods-WKWebViewAutoCache.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA71A4203645B3A4C64B4B5898713825 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7214811395FE4D09EA6430AC622F6BD3 /* JWNetAutoCache.xcconfig */,
+				53E366F36AE66804A5B3173A3B2E4112 /* JWNetAutoCache-dummy.m */,
+				9B4A47A9E15BFC99A3F2D3AF843ABD72 /* JWNetAutoCache-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JWNetAutoCache";
+			sourceTree = "<group>";
+		};
+		CC307AF06BF1A9BE918D4EAC9125CC80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E3B4D1B393D76F36DBE3BD48E3F628A /* JWNetAutoCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D935011278801F9337D80124A7ADD57D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				736ACD90349B1CE58F447437537E65AA /* Pods-WKWebViewAutoCache */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C06272D1A71B038A1EEE199744698489 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74FC440C15B7D7884C9C779416553AB /* JWCacheURLProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E445043F4A047DFCC20255E185937DF /* JWNetAutoCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C8ACDE4C9C3CFB9AA6BE19AA0EFF0EB /* Build configuration list for PBXNativeTarget "JWNetAutoCache" */;
+			buildPhases = (
+				30B97A5823551D92998116B8541590E9 /* Sources */,
+				09744820B32E71C0513B5506A59390AB /* Frameworks */,
+				C06272D1A71B038A1EEE199744698489 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWNetAutoCache;
+			productName = JWNetAutoCache;
+			productReference = 444C2131E41088BF104BD005D8E6C517 /* libJWNetAutoCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C42B31A3D4E27395BB09C1D32BA00975 /* Pods-WKWebViewAutoCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA393EF2775B3F309436B63008925BEF /* Build configuration list for PBXNativeTarget "Pods-WKWebViewAutoCache" */;
+			buildPhases = (
+				2227C27E05FC38C64C495323A58ACBCA /* Sources */,
+				67EDE2B600C31331C362B0D7C1BF6182 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B0CD1D24996AF90A2FBC2776048BA2D /* PBXTargetDependency */,
+			);
+			name = "Pods-WKWebViewAutoCache";
+			productName = "Pods-WKWebViewAutoCache";
+			productReference = 3D6B532BFDAB0E10CF1632F28CA78DAA /* libPods-WKWebViewAutoCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A5E585A6E86811B4BAFA20A98BC22B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E445043F4A047DFCC20255E185937DF /* JWNetAutoCache */,
+				C42B31A3D4E27395BB09C1D32BA00975 /* Pods-WKWebViewAutoCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2227C27E05FC38C64C495323A58ACBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D23D22B7F7CAECDA90B76CB39D307E8 /* Pods-WKWebViewAutoCache-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B97A5823551D92998116B8541590E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5322567BECDD628B14138EDCE5E40EF /* JWCacheURLProtocol.m in Sources */,
+				96C493E84AE876795848A9E1FDF90CD2 /* JWNetAutoCache-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B0CD1D24996AF90A2FBC2776048BA2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWNetAutoCache;
+			target = 1E445043F4A047DFCC20255E185937DF /* JWNetAutoCache */;
+			targetProxy = 7737B7D7A8E87FE4C3B4B440FD5B29C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26EB685379EC5A5CB3FA7E2CD5375FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13AA073F690A919C5EC8FACDAAF3A535 /* Pods-WKWebViewAutoCache.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B150DF5E3012EAF9DD26743F086C4C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7214811395FE4D09EA6430AC622F6BD3 /* JWNetAutoCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JWNetAutoCache/JWNetAutoCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JWNetAutoCache;
+				PRODUCT_NAME = JWNetAutoCache;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8D9A6500E94728C5F2971783272E540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F150644EFF9C03FA2F334BC796CEDE /* Pods-WKWebViewAutoCache.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4967F03D0799F4E8CA61E855D430774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7214811395FE4D09EA6430AC622F6BD3 /* JWNetAutoCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JWNetAutoCache/JWNetAutoCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JWNetAutoCache;
+				PRODUCT_NAME = JWNetAutoCache;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C8ACDE4C9C3CFB9AA6BE19AA0EFF0EB /* Build configuration list for PBXNativeTarget "JWNetAutoCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B150DF5E3012EAF9DD26743F086C4C04 /* Debug */,
+				E4967F03D0799F4E8CA61E855D430774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA393EF2775B3F309436B63008925BEF /* Build configuration list for PBXNativeTarget "Pods-WKWebViewAutoCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EB685379EC5A5CB3FA7E2CD5375FEF /* Debug */,
+				B8D9A6500E94728C5F2971783272E540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
